@@ -154,8 +154,18 @@ p {
 
 /*MEDIA RULES*/
 @media (max-width: 990px) {
+
+  .container-fluid {
+    padding: 7% 8%;
+  }
+
+  #pricing {
+    padding: 50px;
+  }
+
   #title .container-fluid {
     text-align: center;
+    padding: 2% 5% 5%;
   }
 
   .title-image {
